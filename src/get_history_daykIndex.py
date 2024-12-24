@@ -3,7 +3,7 @@ import time
 import sqlite3
 import numpy as np
 import pandas as pd
-import config
+from . import config
 from threading import Thread
 
 
