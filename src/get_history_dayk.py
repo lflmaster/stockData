@@ -10,7 +10,7 @@ import urllib
 import json
 import pandas as pd
 import sqlite3
-import config
+from . import config
 
 
 def get_stock_dayk_by_code(code, begin, end, fqt=0):
