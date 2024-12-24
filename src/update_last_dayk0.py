@@ -5,8 +5,7 @@ import requests
 from datetime import datetime, timedelta
 import exchange_calendars as xcals
 import time
-
-import config
+from . import config
 
 
 def get_trade_data_day():
