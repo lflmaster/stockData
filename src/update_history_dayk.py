@@ -7,8 +7,7 @@ from get_stock_info import get_stock_info
 import time
 import pandas as pd
 import sqlite3
-
-import config
+from . import config
 
 
 def get_dayk0(results, end_data):
