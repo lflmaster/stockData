@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-import config
+from . import config
 import requests
 import pandas as pd
 from sqlalchemy import create_engine
