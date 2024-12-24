@@ -3,7 +3,7 @@ import sqlite3
 import time
 import pandas as pd
 from sqlalchemy import create_engine
-import config
+from . import config
 
 
 def get_stock_sh_date():
