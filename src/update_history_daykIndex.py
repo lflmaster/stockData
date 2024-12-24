@@ -5,7 +5,7 @@ import time
 from threading import Thread
 import pandas as pd
 import numpy as np
-import config
+from . import config
 from datetime import datetime
 
 
