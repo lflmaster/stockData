@@ -1,8 +1,11 @@
 import os
 
 
-# 保存数据文件夹
-data_dir = '../data'
+# 获取当前文件所在目录的绝对路径
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 指定 data 文件夹的绝对路径
+data_dir = os.path.join(BASE_DIR, 'data')
 # 保存日线未复权文件夹
 dayk0_dir = os.path.join(data_dir, 'dayk0')
 # 保存日线后复权文件夹
